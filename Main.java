@@ -13,9 +13,5 @@ public class Main {
         Lottery lottery = new Lottery();
         lottery.initLottery();
         lottery.run();
-
-        Stocks stocks = new Stocks();
-        System.out.println("MaximumDifference is " +
-                stocks.maxDiff());
     }
 }
